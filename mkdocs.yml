@@ -1,0 +1,27 @@
+site_name: Основы программирования на языке Python
+copyright: © Мельников Ф. В., 2021
+theme: readthedocs
+plugins:
+  - search:
+      lang:
+        - en
+        - ru
+nav:
+  - 'Главная страница': 'index.md'
+  - 'Основы языка Python':
+    - 'introduction.md'
+    - 'lists.md'
+    - 'random.md'
+    - 'conditions.md'
+    - 'loops.md'
+    - 'textfiles.md'
+    - "sets.md"
+    - 'dicts.md'
+    - 'functions.md'
+  - 'Приложения с GUI':
+    - 'tkinter/application.md'
+    - 'tkinter/button.md'
+    - 'tkinter/entry.md'
+    - 'tkinter/label.md'
+    - 'tkinter/canvas.md'
+    - 'tkinter/events.md'
